@@ -32,3 +32,33 @@
 
 ```bash
 pip install streamlit requests
+```
+3. 執行程式碼
+開啟 app.py，將變數 N8N_WEBHOOK_URL 替換為你在 n8n 取得的 URL。
+
+在終端機執行：
+
+```Bash
+
+streamlit run app.py
+```
+📂 檔案結構說明
+app.py: Streamlit 前端 Demo 程式碼。
+
+workflow.json: n8n 自動化流程設定檔。
+
+requirements.txt: 雲端部署所需的套件清單。
+
+README.md: 專案說明文件。
+
+📺 Demo 展示
+![alt text](image.png)
+
+n8n 流程圖
+🔗 參考資料
+小林 AI 原始專案
+
+小林 AI 影片教學
+
+📝 授權聲明
+本專案僅供學習與學術交流使用。
